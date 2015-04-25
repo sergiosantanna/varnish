@@ -1,11 +1,6 @@
 backend moodle {
-	.host = "10.10.10.25";
-	//.host = "172.16.108.44";
+	.host = "10.1.1.244";
 	.port = "80";
-	// add por conta do erro 503
-	//.connect_timeout = 5s;
-	//.first_byte_timeout = 10s;
-	//.between_bytes_timeout = 10s;
 }
 
 //Ações ao receber a requisição do cliente
